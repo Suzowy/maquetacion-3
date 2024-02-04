@@ -341,29 +341,30 @@
     width: 100%;
   }
 
- /* PIE DE PAGINA */
+  /* PIE DE PAGINA */
 
- .footer__container {
-  width: 30%;
-  min-width: 30rem;
+  .footer__container {
+    width: 30%;
+    min-width: 30rem;
+  }
+
+  .footer__text {
+    font-size: 1rem;
+  }
 }
 
-}
-
-
-@media (max-width: 350px) {
-.layout{
-  width: 100%;
-  min-width: auto;
-  margin: 0;
-}
-
-
-  .footer__container{
+@media (max-width: 425px) {
+  .layout {
     width: 100%;
+    padding: 1rem;
+    min-width: auto;
+    margin: 0;
+  }
+
+  .footer__container {
+    width: 100%;
+    padding: 1rem;
     min-width: auto;
     margin: 0 auto;
   }
-
-
 }

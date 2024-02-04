@@ -1,0 +1,45 @@
+:root {
+  --color-principal: #fff;
+  --color-secondary: #eabc71;
+  --color-bg-navbar: #686667;
+  --color-text-marquee: #7c7c7c;
+  --color-titles: #5fae84;
+
+}
+
+body {
+  background-color:#161f1a;
+}
+
+.subheader__title,
+.news__title,
+.list-header__title,
+.last-reviews__link-title{
+  background-color: var(--color-titles)
+}
+
+.last-reviews__link-title--small{
+  background: none;
+}
+
+.highlights__description,
+.main-post__description,
+.post__description{
+  color: var(--color-principal);
+}
+
+.posts__read-more{
+  background-color: var(--color-titles);
+  border-color: var(--color-p);
+ 
+}
+
+.layout__aside{
+  background-color: var(--color-footer);
+  color: var(--color-principal);
+}
+
+.tags__tag,
+.game__container-category{
+  background-color: var(--color-titles);
+}
