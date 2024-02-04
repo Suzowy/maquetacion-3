@@ -3,12 +3,16 @@
   --color-secondary: #eabc71;
   --color-bg-navbar: #686667;
   --color-text-marquee: #7c7c7c;
-  --color-titles: #5fae84;
+  --color-titles: #00925a;
 
 }
 
 body {
   background-color:#161f1a;
+}
+
+.header__img {
+  filter: hue-rotate(7deg);
 }
 
 .subheader__title,
