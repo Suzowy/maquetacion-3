@@ -1,9 +1,9 @@
 :root {
   --color-principal: #fff;
-  --color-secondary: #eabc71;
-  --color-bg-navbar: #686667;
+  --color-secondary: #00925a;
+  --color-bg-navbar: #252525d0;
   --color-text-marquee: #7c7c7c;
-  --color-titles: #00925a;
+  --color-titles: #eabc71;
 
 }
 
@@ -36,6 +36,13 @@ body {
   background-color: var(--color-titles);
   border-color: var(--color-p);
  
+}
+
+.posts__read-more {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1:var(--color-titles);
+  --btn-bg-2: rgb(8, 56, 16);
+  --btn-bg-color: hsla(360 100% 100% / 1);
 }
 
 .layout__aside{
